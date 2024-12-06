@@ -1,8 +1,5 @@
-const { Given, When, Then } = require('@cucumber/cucumber'); // وارد کردن گام‌ها از cucumber
+const { Given, When, Then } = require('@cucumber/cucumber'); 
 const assert = require('assert');
-
-// کدهای شما ادامه می‌یابد
-
 
 let categoryCatalog = []; // Simulate category catalog
 let deleteCategoryConfirmationMessage = null;

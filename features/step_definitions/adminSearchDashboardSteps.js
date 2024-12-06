@@ -1,4 +1,5 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
+const { Before } = require('@cucumber/cucumber');
 const assert = require('assert');
 
 // Simulated state variables
@@ -8,7 +9,7 @@ let allItems = [];
 let searchResults = [];
 
 // Initialize simulated items
-before(function () {
+Before(function () {
   allItems = [
     { type: "Product", name: "Health Tracker Watch" },
     { type: "Category", name: "Health Supplements" },

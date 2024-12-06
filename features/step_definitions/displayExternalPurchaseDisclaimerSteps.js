@@ -7,7 +7,7 @@ let productsViewed = false;
 let disclaimerDisplayed = false;
 let disclaimerText = "";
 
-Given('I am on the store page', function () {
+Given('I am on the store page for extrenal purchase disclaimer', function () {
   // Simulate being on the store page
   onStorePage = true;
   disclaimerDisplayed = false;

@@ -10,7 +10,7 @@ let vendors = [
 let vendorToUpdate = null;
 let updatedVendorDetails = {};
 
-Given('I am on the vendor management page', function () {
+Given('I am on the vendor management page for updating a vendor', function () {
   // Simulate navigating to the vendor management page
   onVendorManagementPage = true;
 });

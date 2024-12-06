@@ -6,7 +6,7 @@ let currentUser = null; // Represents the current user
 let navigationOptionsDisplayed = false; // Flag to check if navigation options are displayed
 let navigationLinks = []; // Stores the navigation links present on the landing page
 
-Given('I am on the landing page', function () {
+Given('I am on the landing page for navigation', function () {
   // Simulate being on the landing page
   currentUser = { role: 'visitor' }; // Could be 'diabetic patient' or 'visitor'
   navigateToLandingPage = true;

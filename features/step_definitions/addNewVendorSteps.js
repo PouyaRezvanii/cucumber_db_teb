@@ -8,7 +8,7 @@ let vendors = [
 ];
 let newVendor = null;
 
-Given('I am on the vendor management page', function () {
+Given('I am on the vendor management page for add a new vendor', function () {
   // Simulate navigating to the vendor management page
   onVendorManagementPage = true;
 });

@@ -10,7 +10,7 @@ let vendors = [
 let vendorToDelete = null;
 let deletionSuccess = false;
 
-Given('I am on the vendor management page', function () {
+Given('I am on the vendor management page for deleting a vendor', function () {
   // Simulate navigating to the vendor management page
   onVendorManagementPage = true;
 });
